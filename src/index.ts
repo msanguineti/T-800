@@ -1,1 +1,1 @@
-console.log('Hello World')
+export default (name?: string) => `Hello ${name ?? 'World'}`
