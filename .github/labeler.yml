@@ -1,0 +1,21 @@
+# Add 'repo' label to any root file changes
+repo:
+  - './*'
+
+# Add 'tool-config' label to any change to tool's config files
+tool-config:
+  - .*rc.js
+  - jest.config.js
+
+# Add 'github' label to any change within the github dir
+github:
+  - .github/**/*
+
+# Add 'src' label to any change to source files within the source dir
+src:
+  - src/**/*
+  - '!src/**/*.spec.ts'
+
+# Add 'test' label to any change to *.spec.js files within the source dir
+test:
+  - src/**/*.spec.ts
