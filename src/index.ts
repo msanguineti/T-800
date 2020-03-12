@@ -1,1 +1,1 @@
-export default (name?: string) => `Hello ${name ?? 'World'}`
+export default (name?: string) => `Hello ${name ?? 'World'}!`
