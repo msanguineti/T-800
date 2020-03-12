@@ -14,7 +14,6 @@ github:
 # Add 'src' label to any change to source files within the source dir
 src:
   - src/**/*
-  - '!src/**/*.spec.ts'
 
 # Add 'test' label to any change to *.spec.js files within the source dir
 test:
