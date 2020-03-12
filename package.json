@@ -1,0 +1,37 @@
+{
+  "name": "t-800",
+  "version": "1.0.0",
+  "description": "Template repo for NodeJS + TypeScript + misc build tools",
+  "main": "index.js",
+  "scripts": {
+    "release": "standard-version",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hypercliq/T-800.git"
+  },
+  "keywords": [
+    "template",
+    "nodejs",
+    "typescript"
+  ],
+  "author": "Mirco Sanguineti",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/hypercliq/T-800/issues"
+  },
+  "homepage": "https://github.com/hypercliq/T-800#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@typescript-eslint/eslint-plugin": "^2.23.0",
+    "@typescript-eslint/parser": "^2.23.0",
+    "eslint": "^6.8.0",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.8",
+    "prettier": "^1.19.1",
+    "standard-version": "^7.1.0",
+    "typescript": "^3.8.3"
+  }
+}
