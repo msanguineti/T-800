@@ -4,6 +4,7 @@
   "description": "Template repo for NodeJS + TypeScript + misc build tools",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "release": "standard-version",
     "test": "jest"
   },
