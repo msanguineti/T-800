@@ -6,6 +6,7 @@ repo:
 tool-config:
   - .*rc.js
   - jest.config.js
+  - tsconfig.json
 
 # Add 'github' label to any change within the github dir
 github:
