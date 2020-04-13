@@ -1,6 +1,6 @@
-# Add 'repo' label to any root file changes
-repo:
-  - './*'
+# Add 'pkg' label to any package[-lock].json file changes
+pkg:
+  - package*.json
 
 # Add 'tool-config' label to any change to tool's config files
 tool-config:
@@ -11,6 +11,11 @@ tool-config:
 # Add 'github' label to any change within the github dir
 github:
   - .github/**/*
+ 
+# Add 'docs' label to README, LICENSE (...) file changes
+docs:
+  - README*
+  - LICENSE*
 
 # Add 'src' label to any change to source files within the source dir
 src:
