@@ -11,7 +11,7 @@ tool-config:
 # Add 'github' label to any change within the github dir
 github:
   - .github/**/*
- 
+
 # Add 'docs' label to README, LICENSE (...) file changes
 docs:
   - README*
