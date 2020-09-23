@@ -1,6 +1,16 @@
 name: Automerge
 
 on:
+  pull_request:
+    types:
+      - labeled
+      - unlabeled
+      - synchronize
+      - opened
+      - edited
+      - ready_for_review
+      - reopened
+      - unlocked
   # Try merging a pull request when it is approved.
   pull_request_review:
     types:
