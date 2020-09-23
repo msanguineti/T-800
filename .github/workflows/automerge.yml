@@ -1,6 +1,16 @@
 name: Automerge
 
 on:
+  pull_request:
+    types:
+      - labeled
+      - unlabeled
+      - synchronize
+      - opened
+      - edited
+      - ready_for_review
+      - reopened
+      - unlocked
   # Try merging a pull request when it is approved.
   pull_request_review:
     types:
@@ -13,5 +23,5 @@ jobs:
     steps:
       - uses: reitermarkus/automerge@v1
         with:
-          token: ${{ secrets.MY_GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           dry-run: true
