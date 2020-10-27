@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/msanguineti/T-800/compare/v1.0.0...v1.0.1) (2020-10-27)
+
+### Bug Fixes
+
+- changed repo name ([b9c7246](https://github.com/msanguineti/T-800/commit/b9c72466cd999419e57aea3af6a93aba2cd2bd28))
+
 ## 1.0.0 (2020-10-27)
 
 ### Features
