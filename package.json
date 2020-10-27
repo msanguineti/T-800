@@ -12,10 +12,6 @@
     "lint": "eslint . --cache --fix --ext .ts,.tsx",
     "format": "prettier --loglevel warn --write ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hypercliq/T-800.git"
-  },
   "keywords": [
     "template",
     "nodejs",
@@ -23,10 +19,6 @@
   ],
   "author": "Mirco Sanguineti",
   "license": "WTFPL",
-  "bugs": {
-    "url": "https://github.com/hypercliq/T-800/issues"
-  },
-  "homepage": "https://github.com/hypercliq/T-800#readme",
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
@@ -42,5 +34,13 @@
     "standard-version": "^9.0.0",
     "ts-jest": "^26.4.3",
     "typescript": "^4.0.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msanguineti/T-800.git"
+  },
+  "bugs": {
+    "url": "https://github.com/msanguineti/T-800/issues"
+  },
+  "homepage": "https://github.com/msanguineti/T-800#readme"
 }
